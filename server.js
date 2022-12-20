@@ -36,6 +36,7 @@ function initial() {
 // routes
 require('./app/routes/auth.routes')(app);
 require('./app/routes/user.routes')(app);
+require('./app/routes/customer.routes')(app);
 
 app.use(cors(corsOptions));
 

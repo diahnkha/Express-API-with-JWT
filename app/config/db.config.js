@@ -3,7 +3,7 @@ module.exports = {
     USER: "postgres",
     PORT: "5433",
     PASSWORD: "1234",
-    DB: "testdbexpress",
+    DB: "testdong",
     dialect: "postgres",
     pool: {
       max: 5,

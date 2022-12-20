@@ -1,0 +1,222 @@
+{
+	"info": {
+		"_postman_id": "c65b3468-7946-4db1-b0d0-4931348d9efb",
+		"name": "express-backend-auth-customer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20948341"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/customer/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjcxNTE1MjI1LCJleHAiOjE2NzE2MDE2MjV9.ZaADoW9aWA0Q3rVLwc0qVtnLAStAHDQE2H1us-YqE6w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nama\": \"kok\",\n    \"email\": \"kok@gmail.com\",\n    \"alamat\": \"cisini\",\n    \"nohp\": \"08171887236\",\n    \"tanggal_lahir\": \"1999-11-02\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/customer/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/customer/signup Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjcxNTE1MjI1LCJleHAiOjE2NzE2MDE2MjV9.ZaADoW9aWA0Q3rVLwc0qVtnLAStAHDQE2H1us-YqE6w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nama\": \"kok\",\n    \"email\": \"kok@gmail.com\",\n    \"alamat\": \"cisini\",\n    \"nohp\": \"08171887236\",\n    \"tanggal_lahir\": \"1999-11-02\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/customer/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/customer/signup Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjcxNTE1MjI1LCJleHAiOjE2NzE2MDE2MjV9.ZaADoW9aWA0Q3rVLwc0qVtnLAStAHDQE2H1us-YqE6w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nama\": \"kok\",\n    \"email\": \"kok@gmail.com\",\n    \"alamat\": \"cisini\",\n    \"nohp\": \"08171887236\",\n    \"tanggal_lahir\": \"1999-11-02\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/customer/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/customer/signup Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjcxNTE1MjI1LCJleHAiOjE2NzE2MDE2MjV9.ZaADoW9aWA0Q3rVLwc0qVtnLAStAHDQE2H1us-YqE6w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nama\": \"kok\",\n    \"email\": \"kok@gmail.com\",\n    \"alamat\": \"cisini\",\n    \"nohp\": \"08171887236\",\n    \"tanggal_lahir\": \"1999-11-02\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/customer/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/customer/signup Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjcxNTEyMzcxLCJleHAiOjE2NzE1OTg3NzF9.-xutTFnvZVeQs4ixP-53jKDp4hAhKS17Znc2Z1qp6_8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/customer/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"all"
+					],
+					"query": [
+						{
+							"key": "x-access-token",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/customer/signup Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjcxNTEyMzcxLCJleHAiOjE2NzE1OTg3NzF9.-xutTFnvZVeQs4ixP-53jKDp4hAhKS17Znc2Z1qp6_8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/customer/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"all"
+					],
+					"query": [
+						{
+							"key": "x-access-token",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
